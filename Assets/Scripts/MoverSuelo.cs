@@ -18,6 +18,7 @@ public class MoverSuelo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Simplemente es una comprobacion
         Vector3 distancia = mainCamera.transform.position - transform.position;
         if (tamSuelo <= distancia.magnitude)
         {
